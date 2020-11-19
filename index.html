@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://openlayers.org/en/v4.6.5/css/ol.css"
+      type="text/css"
+    />
+    <link rel="shortcut icon" href="favicon.png" />
+    <title>ISS Tracker - API Project</title>
+  </head>
+
+  <body>
+    <body>
+      <section id="main-section">
+        <div>
+          <div id="map-section">
+            <div id="map">
+              <!-- Map will be shown inside this div-->
+              <p id="map-loding">Loading...</p>
+            </div>
+          </div>
+
+          <div id="map-info">
+            <div class="title">
+              <h1>ISS Tracker</h1>
+            </div>
+            <div class="latlon">
+              <h3 id="alt">Altitude: Loading...</h3>
+              <h3 id="lat">Latitude: Loading...</h3>
+              <h3 id="lon">Longitude: Loading...</h3>
+            </div>
+          </div>
+        </div>
+        <p id="creator">
+          This web app made by
+          <a target="_blank" href="https://raihanahmad.netlify.app/"
+            >Raihan Ahmad</a
+          >
+        </p>
+      </section>
+
+      <script
+        src="https://openlayers.org/en/v4.6.5/build/ol.js"
+        type="text/javascript"
+      ></script>
+      <script
+        type="text/javascript"
+        src="app.js"
+        type="text/javascript"
+      ></script>
+    </body>
+  </body>
+</html>
